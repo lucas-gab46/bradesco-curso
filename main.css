@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: monospace;
+    background: var(--bg);
+    color: var(--FontColor);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+
+
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF; 
+    --black: #000000;
+}
+
+
+.light-theme {
+    --bg: var(--green);
+    --FontColor: var(--black);
+    --btnbg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --FontColor: var(--green);
+    --btnbg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+
+
+* {
+    color: var(--FontColor);
+    font-family: helvetica;
+}
+.btn {
+color: var(--btnFontColor);
+background-color: var(--btnBg);
+}
+
+.btn {
+    position: absolute;
+    top: 580px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBackgroundColor); 
+}
